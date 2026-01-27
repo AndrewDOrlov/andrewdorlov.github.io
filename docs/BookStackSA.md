@@ -1,10 +1,10 @@
 ﻿# BookStack
-## Solution Architecture
-### November 2024
+#### Solution Architecture
+###### November 2024
 
 ## Document Control
 
-### Revision History
+#### Revision History
 
 |  |  |  |  |
 | --- | --- | --- | --- |

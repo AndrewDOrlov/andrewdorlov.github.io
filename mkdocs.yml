@@ -3,8 +3,8 @@ nav:
   - Home: index.md
   - Systems:
     - BookStack:
-      - Solution Architecture: BookStackSA.md
-      - Support Model: BookStackSM.md
+      - Solution Architecture (markitdown edited): BookStackSA.md
+      - Support Model (markitdown raw): BookStackSM.md
     - EStaff:
-      - Solution Architecture: E-StaffSA.md
+      - Solution Architecture (pandoc raw): E-StaffSA.md
 theme: readthedocs
