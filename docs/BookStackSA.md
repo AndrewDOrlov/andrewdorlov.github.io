@@ -6,25 +6,6 @@
 
 Contents
 
-[1. Document Control 3](#_Toc220348816)
-
-[1.1. Revision History 3](#_Toc220348817)
-
-[1.2. Document Review and Approval 3](#_Toc220348818)
-
-[1.3. Acronyms 3](#_Toc220348819)
-
-[1.4. References 3](#_Toc220348820)
-
-[2. Introduction 3](#_Toc220348821)
-
-[2.1. Document Purpose 3](#_Toc220348822)
-
-[2.2. Solution Overview 3](#_Toc220348823)
-
-[2.3. Architecture Overview 4](#_Toc220348824)
-
-[2.4. Responsibility Matrix 4](#_Toc220348825)
 
 # Document Control
 
@@ -76,7 +57,6 @@ The libraries used by, and included with, BookStack are provided under their own
 
 # Architecture Overview
 
-![C:\Users\andre\Downloads\Overview(2).png](data:image/png;base64...)
 ![Screenshot](img/BookStack_Overview.png)
 Data flow description:
 
