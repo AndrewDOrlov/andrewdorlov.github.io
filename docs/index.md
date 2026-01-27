@@ -1,6 +1,4 @@
-# Welcome to MkDocs
-
-Sample technical documents library
+# Sample technical documents library
 
 ## Steps to create:
 
