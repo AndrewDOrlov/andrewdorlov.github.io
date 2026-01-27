@@ -6,6 +6,5 @@ nav:
       - Solution Architecture: BookStackSA.md
       - Support Model: BookStackSM.md
     - EStaff:
-      - Solution Architecture: index.md
-      - Support Model: index.md
+      - Solution Architecture: E-StaffSA.md
 theme: readthedocs
