@@ -92,7 +92,7 @@ E-Staff enables api integration with HeadHunter (<https://dev.hh.ru/>).
 
 # Architecture Overview
 
-![](media/image1.png)
+![Screenshot](img/E-StaffOverview.png)
 
 Data flow description:
 
