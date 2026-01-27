@@ -60,9 +60,9 @@ The libraries used by, and included with, BookStack are provided under their own
 | --- | --- | --- | --- |
 | Data flow | Source | Destination | Schedule |
 | User interaction | User | BookStack | On user query |
-| BookStack | User |
+| User interaction | BookStack | User | On user query |
 | Authentication | User | ADFS | On user query |
-| ADFS | User |
+| Authentication | ADFS | User | On user query |
 
 ### Responsibility Matrix
 
