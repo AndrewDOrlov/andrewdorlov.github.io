@@ -14,10 +14,9 @@ Sample technical documents library
 
 ## Library layout
 
-* Systems
-    *  system 1
-       *  document 1
-       *  document 2
-    *  system 2
-       *  document 1
-       *  document 2
+*  system 1
+   *  document 1
+   *  document 2
+*  system 2
+   *  document 1
+   *  document 2
