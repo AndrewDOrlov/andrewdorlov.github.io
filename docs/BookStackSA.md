@@ -1,11 +1,6 @@
-﻿|  |
-| --- |
-| BookStack |
-| Solution Architecture |
-| November 2024 |
-
-Contents
-
+﻿# BookStack
+# Solution Architecture
+# November 2024
 
 # Document Control
 
@@ -58,7 +53,8 @@ The libraries used by, and included with, BookStack are provided under their own
 # Architecture Overview
 
 ![Screenshot](img/BookStack_Overview.png)
-Data flow description:
+
+# Data flow description:
 
 |  |  |  |  |
 | --- | --- | --- | --- |
