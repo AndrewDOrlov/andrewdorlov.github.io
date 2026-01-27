@@ -12,9 +12,9 @@
 
 ## Library layout
 
-*  system 1
-   *  document 1
-   *  document 2
-*  system 2
-   *  document 1
-   *  document 2
+* System 1
+    *  Document 1
+    *  Document 2
+* System 2
+    *  Document 1
+    *  Document 2
