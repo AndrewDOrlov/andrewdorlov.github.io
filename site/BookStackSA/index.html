@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Solution Architecture - TWDocs</title>
+    <title>Solution Architecture (markitdown edited) - TWDocs</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Solution Architecture";
+        var mkdocs_page_name = "Solution Architecture (markitdown edited)";
         var mkdocs_page_input_path = "BookStackSA.md";
         var mkdocs_page_url = null;
       </script>
@@ -47,17 +47,43 @@
               <ul class="current">
                   <li class="toctree-l1 current"><a class="reference internal current" >BookStack</a>
     <ul class="current">
-                <li class="toctree-l2 current"><a class="reference internal current" href="#">Solution Architecture</a>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Solution Architecture (markitdown edited)</a>
     <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#document-control">Document Control</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#revision-history">Revision History</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#document-review-and-approval">Document Review and Approval</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#acronyms">Acronyms</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#references">References</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#document-purpose">Document Purpose</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#solution-overview">Solution Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#architecture-overview">Architecture Overview</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#data-flow-description">Data flow description:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#responsibility-matrix">Responsibility Matrix</a>
+    </li>
+        </ul>
+    </li>
     </ul>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../BookStackSM/">Support Model</a>
+                <li class="toctree-l2"><a class="reference internal" href="../BookStackSM/">Support Model (markitdown raw)</a>
                 </li>
     </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" >EStaff</a>
     <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../E-StaffSA/">Solution Architecture</a>
+                <li class="toctree-l2"><a class="reference internal" href="../E-StaffSA/">Solution Architecture (pandoc raw)</a>
                 </li>
     </ul>
                   </li>
@@ -78,7 +104,7 @@
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
           <li class="breadcrumb-item">Systems</li>
           <li class="breadcrumb-item">BookStack</li>
-      <li class="breadcrumb-item active">Solution Architecture</li>
+      <li class="breadcrumb-item active">Solution Architecture (markitdown edited)</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -87,43 +113,20 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <table>
-<thead>
-<tr>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>BookStack</td>
-</tr>
-<tr>
-<td>Solution Architecture</td>
-</tr>
-<tr>
-<td>November 2024</td>
-</tr>
-</tbody>
-</table>
-<p>Contents</p>
-<h1 id="document-control">Document Control</h1>
-<h1 id="revision-history">Revision History</h1>
+                <h1 id="bookstack-solution-architecture">BookStack <br> Solution Architecture</h1>
+<p>November 2024</p>
+<h3 id="document-control">Document Control</h3>
+<h4 id="revision-history">Revision History</h4>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th>Version</th>
+<th>Author</th>
+<th>Date (dd/mm/yyyy)</th>
+<th>Summary of change</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Version</td>
-<td>Author</td>
-<td>Date (dd/mm/yyyy)</td>
-<td>Summary of change</td>
-</tr>
 <tr>
 <td>1.0</td>
 <td>Ivan Ivanov</td>
@@ -138,21 +141,16 @@
 </tr>
 </tbody>
 </table>
-<h1 id="document-review-and-approval">Document Review and Approval</h1>
+<h4 id="document-review-and-approval">Document Review and Approval</h4>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
+<th>Version</th>
+<th>Approved by</th>
+<th>Date (dd/mm/yyyy)</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Version</td>
-<td>Approved by</td>
-<td>Date (dd/mm/yyyy)</td>
-</tr>
 <tr>
 <td>1.0</td>
 <td>Petr Petrov</td>
@@ -165,44 +163,31 @@
 </tr>
 </tbody>
 </table>
-<h1 id="acronyms">Acronyms</h1>
+<h4 id="acronyms">Acronyms</h4>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th>Acronym</th>
+<th>Definition</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Acronym</td>
-<td>Definition</td>
-</tr>
 <tr>
 <td>ADFS</td>
 <td>Active Directory Federation Service</td>
 </tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
 </tbody>
 </table>
-<h1 id="references">References</h1>
+<h4 id="references">References</h4>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
+<th>Item no.</th>
+<th>Document title</th>
+<th>Version or date</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Item no.</td>
-<td>Document title</td>
-<td>Version or date</td>
-</tr>
 <tr>
 <td>1</td>
 <td><a href="https://github.com/BookStackApp/BookStack/blob/development/readme.md">Source repository README</a></td>
@@ -215,32 +200,26 @@
 </tr>
 </tbody>
 </table>
-<h1 id="introduction">Introduction</h1>
-<h1 id="document-purpose">Document Purpose</h1>
+<h3 id="introduction">Introduction</h3>
+<h4 id="document-purpose">Document Purpose</h4>
 <p>The document is intended as a reference for system administrators and support engineers in charge of the system deployment and maintenance.</p>
-<h1 id="solution-overview">Solution Overview</h1>
+<h4 id="solution-overview">Solution Overview</h4>
 <p>BookStack is an opinionated documentation platform that provides a pleasant and simple out-of-the-box experience. New users to an instance should find the experience intuitive and only basic word-processing skills should be required to get involved in creating content on BookStack. The platform should provide advanced power features to those that desire it, but they should not interfere with the core simple user experience.</p>
 <p>The BookStack source is provided under the <a href="https://github.com/BookStackApp/BookStack/blob/development/LICENSE">MIT License</a>.</p>
 <p>The libraries used by, and included with, BookStack are provided under their own licenses and copyright. The licenses for many of our core dependencies can be found in the attribution list below but this is not an exhaustive list of all projects used within BookStack.</p>
-<h1 id="architecture-overview">Architecture Overview</h1>
-<p><img alt="Screenshot" src="../img/BookStack_Overview.png" />
-Data flow description:</p>
+<h4 id="architecture-overview">Architecture Overview</h4>
+<p><img alt="Screenshot" src="../img/BookStack_Overview.png" /></p>
+<h4 id="data-flow-description">Data flow description:</h4>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th>Data flow</th>
+<th>Source</th>
+<th>Destination</th>
+<th>Schedule</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Data flow</td>
-<td>Source</td>
-<td>Destination</td>
-<td>Schedule</td>
-</tr>
 <tr>
 <td>User interaction</td>
 <td>User</td>
@@ -248,10 +227,10 @@ Data flow description:</p>
 <td>On user query</td>
 </tr>
 <tr>
+<td>User interaction</td>
 <td>BookStack</td>
 <td>User</td>
-<td></td>
-<td></td>
+<td>On user query</td>
 </tr>
 <tr>
 <td>Authentication</td>
@@ -260,28 +239,23 @@ Data flow description:</p>
 <td>On user query</td>
 </tr>
 <tr>
+<td>Authentication</td>
 <td>ADFS</td>
 <td>User</td>
-<td></td>
-<td></td>
+<td>On user query</td>
 </tr>
 </tbody>
 </table>
-<h1 id="responsibility-matrix">Responsibility Matrix</h1>
+<h4 id="responsibility-matrix">Responsibility Matrix</h4>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
+<th>System</th>
+<th>Vendor</th>
+<th>Administrator</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>System</td>
-<td>Vendor</td>
-<td>Administrator</td>
-</tr>
 <tr>
 <td>BookStack</td>
 <td>BookStack</td>
@@ -299,7 +273,7 @@ Data flow description:</p>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
         <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../BookStackSM/" class="btn btn-neutral float-right" title="Support Model">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../BookStackSM/" class="btn btn-neutral float-right" title="Support Model (markitdown raw)">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
