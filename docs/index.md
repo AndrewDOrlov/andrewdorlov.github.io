@@ -1,6 +1,6 @@
 # Sample technical documents library
 
-## Steps to create:
+## Steps to create
 
 * Convert docx files to md:
     *  Markitdown
