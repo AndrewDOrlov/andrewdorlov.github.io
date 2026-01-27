@@ -1,0 +1,11 @@
+site_name: TWDocs
+nav:
+  - Home: index.md
+  - Systems:
+    - BookStack:
+      - Solution Architecture: BookStackSA.md
+      - Support Model: BookStackSM.md
+    - EStaff:
+      - Solution Architecture: index.md
+      - Support Model: index.md
+theme: readthedocs
