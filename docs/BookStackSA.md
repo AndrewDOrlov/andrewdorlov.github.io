@@ -7,7 +7,7 @@ August 2024
 
 | Version | Author | Date (dd/mm/yyyy) | Summary of change |
 | --- | --- | --- | --- |
-| 1.0 | Ivan Ivanov | 24.11.2024 | Initial version |
+| 1.0 | Ivan Ivanov | 24.08.2024 | Initial version |
 | 1.1 | Ivan Ivanov | 27.12.2024 | Updated architecture overview (section 2.5) |
 
 #### Document Review and Approval
