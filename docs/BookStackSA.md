@@ -1,5 +1,5 @@
 ﻿# BookStack <br> Solution Architecture
-November 2024
+August 2024
 
 ### Document Control
 
