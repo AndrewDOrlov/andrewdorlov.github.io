@@ -1,4 +1,4 @@
-name: twdocs
+name: mkdocs
 on:
   push:
     branches:
