@@ -1,15 +1,46 @@
 name: mkdocs
+
 on:
   push:
     branches:
-      - master
+      - master # or your default branch name (e.g., master)
+  workflow_dispatch: # Allows manual triggering from the Actions tab
+
+permissions:
+  contents: write # Needed for writing to the gh-pages branch
+  pages: write # Needed to deploy to GitHub Pages
+  id-token: write # Needed for OpenID Connect (OIDC) authentication
+
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python environment
+        uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material mkdocs-static-i18n
-      - run: mkdocs gh-deploy --force
+
+      - name: Install dependencies
+        run: pip install mkdocs mkdocs-material # Install MkDocs and theme (adjust if using requirements.txt)
+
+      - name: Build site
+        run: mkdocs build
+        
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site # The directory where mkdocs build outputs the static files
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
