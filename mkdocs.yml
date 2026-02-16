@@ -1,0 +1,10 @@
+site_name: TWDocs
+nav:
+  - Home: index.md
+  - Systems:
+    - BookStack:
+      - Solution Architecture (markitdown edited): BookStackSA.md
+      - Support Model (markitdown raw): BookStackSM.md
+    - EStaff:
+      - Solution Architecture (pandoc raw): E-StaffSA.md
+theme: readthedocs
