@@ -1,0 +1,208 @@
+/* Layouts */
+
+/* Limit image size for laptop screen and larger */
+@media (min-width: 1024px) {
+
+    .img-mn {
+    max-width: 30% !important; /* Limits the image width */
+    height: auto !important;     /* Preserves the original aspect ratio */
+  }
+
+    .img-sm {
+    max-width: 50% !important; /* Limits the image width */
+    height: auto !important;     /* Preserves the original aspect ratio */
+  }
+
+    .img-md {
+    max-width: 70% !important; /* Limits the image width */
+    height: auto !important;     /* Preserves the original aspect ratio */
+  }
+}
+
+/* Remove the maximum width limit on the documentation layout */
+.wy-nav-content {
+    max-width: none !important;
+}
+
+/* Force code blocks to wrap instead of introducing horizontal scrolls */
+.rst-content pre code, 
+.rst-content code {
+    white-space: pre-wrap !important;
+    word-wrap: normal !important;
+}
+
+/* Force text wrapping inside ReadTheDocs theme tables */
+.wy-table-responsive table td, 
+.wy-table-responsive table th,
+.rst-content table.docutils td,
+.rst-content table.docutils th {
+    white-space: normal !important;
+    word-wrap: normal;
+    word-break: normal;
+}
+
+/* Visibility */
+
+/* Uncomment to display the home icon */
+/* Hide the default ReadTheDocs home icon */
+/* .icon-home {
+    display: none;
+} */
+
+/* Element colors */
+
+.wy-nav-content-wrap {
+    background: #fcfcfc; /* Match theme background */
+}
+
+.wy-side-nav-search {
+    background-color: #227474;
+}
+
+.wy-nav-top {
+    background-color: #227474;
+}
+
+/* Font Color*/
+
+/* Caption */
+.caption-text {
+    color: #ffffff;
+}
+
+/* Links */
+
+.footer {
+    a {
+        color: #227474;
+    }
+    a:hover {
+        color: #2fbebe;
+    }
+}
+
+.toctree-l1 {
+    a {
+        color: #2fbebe;
+    }
+    a:hover {
+        color: #2fbebe;
+    }
+}
+
+/* Breadcrumbs */
+
+.wy-breadcrumbs, .document {
+    a {
+        color: #227474;
+    }
+    a:hover {
+        color: #2fbebe;
+    }
+}
+
+/* Menu text, headers */
+
+.footer, .wy-nav-side, .wy-menu-vertical, h1, h2, h3, h4, h5, h6 {
+    color: #227474;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-top: 20px;
+}
+
+/* Table headers */
+thead {
+    color: #ffffff !important;
+    background-color: #227474 !important;
+}
+
+/* Font Family */
+
+/* Override all standard body text and headers */
+body, html, h1, h2, h3, h4, h5, h6, input, .wy-nav-side, .wy-nav-top, .wy-menu, .wy-menu-vertical, .rst-versions, .wy-side-nav-search {
+    font-family: "Verdana" !important;
+}
+
+/* Override all monospaced text (code blocks and inline code) */
+code, kbd, pre, samp, .rst-content tt, .rst-content code {
+    font-family: "Courier New" !important;
+}
+
+img {
+  border: 5px solid #227474 !important;
+  box-shadow: 2px solid #e4e4e4 !important;
+}
+
+/* Counters */
+
+/* Override details appearance */
+
+details {
+    /* background-color: #dff4f4 !important; */
+    padding: 0 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+details summary {
+    list-style-type: none !important;
+}
+
+details summary::after {
+    content: "  Expand: \25BA" !important;
+    white-space: nowrap;
+    /* background-color: #dff4f4  !important; */
+    color: #a0a0a0 !important;
+}
+
+details[open] summary::after {
+    content: "  Collapse: \25BC" !important;
+    white-space: nowrap;
+    /* background-color: #dff4f4 !important; */
+    color: #a0a0a0 !important;
+}
+
+/* Uncomment to change note appearance */
+
+/* details summary {
+    list-style-type: none !important;
+}
+
+details[open] summary::before {
+    gap: 8px !important;
+    content: "Collapse: \25BC  " !important;
+    color: #a0a0a0;
+}
+
+details summary::before {
+    content: "Expand: \25BA  " !important;
+    gap: 8px !important;
+    color: #a0a0a0;
+} */
+
+/* Overrife default counters with decimal counters */
+
+ol li {
+    list-style: none !important;
+}
+
+ol {
+    counter-reset: section !important;
+    list-style-type: none !important;
+  }
+
+ol li {
+    counter-increment: section !important;
+  }
+
+ol li::before {
+    content: counters(section, ".") ". ";
+    /* font-weight: bold !important; */
+    margin-right: 5px !important;
+    display: inline;
+  }
+
+ol li > p:first-child, ol li > details:first-child, ol li > details > summary:first-child {
+  display: inline;
+}

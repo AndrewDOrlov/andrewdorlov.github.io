@@ -1,10 +1,22 @@
-site_name: TWDocs
+site_name: Sample Co.
 nav:
-  - Home: index.md
-  - Systems:
+  - Curriculum Vitae: cv.md
+  - Sample Documentation Display:
     - BookStack:
-      - Solution Architecture (markitdown edited): BookStackSA.md
-      - Support Model (markitdown raw): BookStackSM.md
-    - EStaff:
-      - Solution Architecture (pandoc raw): E-StaffSA.md
-theme: readthedocs
+      - Technical Architecture: BookStackTA.md
+      - Support Procedures: BookStackSP.md
+      - User Guide: BookStackUG.md
+theme:
+  name: readthedocs
+  custom_dir: overrides
+  navigation_depth: 6
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - scripts/extra.js
+  
+markdown_extensions:
+  - attr_list
+  - pymdownx.details
