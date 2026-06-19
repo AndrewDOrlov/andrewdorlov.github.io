@@ -3,7 +3,7 @@
 ![Profile](images/cv/profile.jpg){:.img-mn}
 
 ## Contacts
-- Andrewdorlov@gmail.com
+- [Andrewdorlov@gmail.com](mailto:AndrewDOrlov@gmail.com)
 - [linkedin](https://linkedin.com/in/andrew-orlov-447340240) 
 - [GitHub](https://github.com/AndrewDOrlov)
 
