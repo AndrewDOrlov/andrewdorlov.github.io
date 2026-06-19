@@ -1,6 +1,6 @@
-site_name: Sample Co.
+site_name: Andrew D. Orlov
 nav:
-  - Curriculum Vitae: cv.md
+  - Curriculum Vitae: index.md
   - Sample Documentation Display:
     - BookStack:
       - Technical Architecture: BookStackTA.md

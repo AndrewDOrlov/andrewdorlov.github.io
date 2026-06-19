@@ -166,4 +166,4 @@ On the Home screen, click **Settings**. The Settings screen will open.
 
 #### End of Demonstration Fragment
 
-To view the full document, please contact Andrew D Orlov. See [Contacts](cv.md#contacts)
+To view the full document, please contact Andrew D Orlov. See [Contacts](index.md#contacts)
