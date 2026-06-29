@@ -4,7 +4,7 @@
 
 ## Contacts
 - [Andrewdorlov@gmail.com](mailto:AndrewDOrlov@gmail.com)
-- [linkedin](https://linkedin.com/in/andrew-orlov-447340240) 
+- [linkedin](https://linkedin.com/in/andrew-orlov-447340240)
 - [GitHub](https://github.com/AndrewDOrlov)
 
 
@@ -40,7 +40,7 @@ Virtualization: Hyper-V, VirtualBox
 
 Environments: Docker, Kubernetes
 
-web applications: .NET, IIS, Nginx
+web servers: Apache, IIS, Nginx, Flask
 
 DB management: MySQL, PostgreSQL
 
@@ -56,38 +56,45 @@ DB management: MySQL, PostgreSQL
 ### Kept (prev. KPMG) - Technical Writer
 *Moscow, Russia, 08/2024 - present*
 
-- Technical writing: composition of documents for the information systems deployed in the corporate infrastructure
-    - Technical documents:
-        - System architecture documents
-        - System support and maintenance procedures
-        - Release notes
-        - Deployment guides
-        - Personal data integrity statements
-        - Security acceptance documents
-    - Business documents:
-        - Business cases
-        - Business impact assessments
-        - System requirements
-    - user documents:
-        - User guides
-        - Presentations
-- Business Analysis:
-    - Overseeing of the systems deployment by corporate engineers and contractors: VM deployment, network organization, deployment of system components
-    - Maintainance of the project task backlog and schedule, organizing meetings
-    - Writing of UI elements and logic for information systems
-- DocOps Engineering:
-    - Implementation of the Docs as Code approach in the corporate documentation environment. Transition from manually kept .docx documents to documentation repositories with version control and simultaneous editing possibility
+- Composition of documents for the information systems deployed in the corporate infrastructure
+    - technical:
+        - technical architecture
+        - solution support model
+        - release notes
+        - deployment guide
+        - personal data integrity statement
+        - security acceptance criteria
+    - business:
+        - business case
+        - business impact assessment
+        - system requirement
+    - user:
+        - user guide
+        - presentation
+        
+- Business analysis and management:
+    - overseeing and direction of information systems deployment by corporate engineers and contractors:
+        - VM deployment
+        - network organization
+        - deployment of information system components
+    - maintainance of the project task backlog and works schedule, organization of meetings
+    - planning of UI elements and logic for information systems
+
+- DocOps:
+    - development of the business process of composition, modification and approval of technical documents
+    - implementation of the Docs as Code approach
 
 
 ### Megaputer Intelligence - Linguist / Analyst
 *Moscow, Russia, 05/2023 - 07/2023*
 
-- Technical writing: composition of documentats for the Megaputer Polyanalyst analytics platform
-    - User guides
-    - Technical guides
+- Composition of documents for the Megaputer PolyAnalyst analytics platform
+    - user guides
+    - technical guides
 - Analytics:
-    - Extraction and assessment of data from client corporate documents
-    - Composition of dashboards and presentations
+    - extraction, processing and visualization of data from client corporate documents
+    - performing presentations for the clients
+- Development of the analytics platform components
 
 ### ICT.Moscow - Content Editor
 *Moscow, Russia, 11/2022 - 05/2023*
@@ -99,7 +106,7 @@ DB management: MySQL, PostgreSQL
 ### 1WorldSync / Cnet Content Solutions - Technical Translator / Chief Creative Analyst
 *Moscow, Russia, 12/2016 - 07/2022*
 
-- Creation and management of marketing texts and product descriptions in English and French
+- Creation and management of technical and marketing descriptions for technological products in English and French
 - Tailor-made work and communication with major international retailers (Staples, Currys, BestBuy, Amazon, Cultura)
 
 
