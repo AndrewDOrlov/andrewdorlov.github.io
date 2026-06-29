@@ -25,7 +25,7 @@
 
 Docs as code: Git, MkDocs, Jekyll
 
-Diagrams: Draw.io, Visio, PlantUML, Mermaid
+Diagrams: Draw.io, Visio, UML, Mermaid, BPMN
 
 Content Management: MD, HTML, CSS, XML, Confluence
 
