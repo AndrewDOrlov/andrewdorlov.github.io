@@ -11,10 +11,8 @@
 ## Languages
 
 - English: proficient
-    - 5-year degree in linguistics
     - Cambrige English TKT certificate
 - French: proficient
-    - 5-year degree in linguistics
     - DALF C1
 - Russian: native
 
@@ -45,6 +43,12 @@ Environments: Docker, Kubernetes
 web applications: .NET, IIS, Nginx
 
 DB management: MySQL, PostgreSQL
+
+
+## Повышение квалификации
+
+- [CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science) / Harvard University (EdX) / 2024
+- [TechWtiter Days](https://techwriterdays.ru/en/index) / [it-conf.ru](https://www.it-conf.ru/) / 2025
 
 
 ## Work Experience

@@ -11,10 +11,8 @@
 ## Владение языками
 
 - Английский: профессионально;
-    - Квалификация лингвиста-переводчика
     - Сертификат TKT Cambrige English
 - Французский: профессионально
-    - Квалификация лингвиста-переводчика
     - Сертификат DALF C1
 - Русский: родной
 
@@ -45,6 +43,12 @@ OS: Linux, Windows
 Веб-сервисы: .NET, IIS, Nginx
 
 СУБД: MySQL, PostgreSQL
+
+
+## Повышение квалификации
+
+- [CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science) / Harvard University (EdX) / 2024
+- [TechWtiter Days](https://techwriterdays.ru/en/index) / [it-conf.ru](https://www.it-conf.ru/) / 2025
 
 
 ## Опыт работы
