@@ -21,31 +21,30 @@
 
 ## Skills
 
-
-### Expertise
-
-Environments: Linux, Windows, Docker, Kubernetes
-
-web applications: .NET, IIS, Nginx
-
-DB management systems: MySQL, PostgreSQL
+### Tools
 
 Docs as code: Git, MkDocs, Jekyll
 
 Diagrams: Draw.io, Visio, PlantUML, Mermaid
 
-Content Management: HTML, CSS, JS, XML
+Content Management: MD, HTML, CSS, XML, Confluence
 
-Programming: Python, R, MySQL
+Programming: Python, R, MySQL, JS
 
 Writing and design: MS Office, Adobe Photoshop, Figma
 
 
-### Qualities
+### Expertise
 
-- Well organized
-- Quick learning
-- Proactive
+OS: Linux, Windows
+
+Virtualization: Hyper-V, VirtualBox
+
+Environments: Docker, Kubernetes
+
+web applications: .NET, IIS, Nginx
+
+DB management: MySQL, PostgreSQL
 
 
 ## Work Experience
@@ -53,7 +52,7 @@ Writing and design: MS Office, Adobe Photoshop, Figma
 ### Kept (prev. KPMG) - Technical Writer
 *Moscow, Russia, 08/2024 - present*
 
-- Technical writing: composition of documents for the information systems deployed in the corporate infrastructure.
+- Technical writing: composition of documents for the information systems deployed in the corporate infrastructure
     - Technical documents:
         - System architecture documents
         - System support and maintenance procedures
@@ -68,19 +67,18 @@ Writing and design: MS Office, Adobe Photoshop, Figma
     - user documents:
         - User guides
         - Presentations
-- Management:
+- Business Analysis:
     - Overseeing of the systems deployment by corporate engineers and contractors: VM deployment, network organization, deployment of system components
     - Maintainance of the project task backlog and schedule, organizing meetings
+    - Writing of UI elements and logic for information systems
 - DocOps Engineering:
     - Implementation of the Docs as Code approach in the corporate documentation environment. Transition from manually kept .docx documents to documentation repositories with version control and simultaneous editing possibility
-- UI/UX Design:
-    - Writing of UI texts for information systems
-    - Planning and testing of the system logic
+
 
 ### Megaputer Intelligence - Linguist / Analyst
 *Moscow, Russia, 05/2023 - 07/2023*
 
-- Technical writing: composition of documentats for the Megaputer Polyanalyst analytics platform.
+- Technical writing: composition of documentats for the Megaputer Polyanalyst analytics platform
     - User guides
     - Technical guides
 - Analytics:

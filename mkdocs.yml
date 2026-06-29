@@ -1,6 +1,8 @@
 site_name: Andrew D. Orlov
 nav:
-  - Curriculum Vitae: index.md
+  - Curriculum Vitae:
+    - EN: index.md
+    - RU: CVRU.md
   - Sample Documentation Display:
     - BookStack:
       - Technical Architecture: BookStackTA.md
