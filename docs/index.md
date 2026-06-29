@@ -11,7 +11,7 @@
 ## Languages
 
 - English: proficient
-    - Cambrige English TKT certificate
+    - Cambrige English TKT
 - French: proficient
     - DALF C1
 - Russian: native
@@ -40,12 +40,12 @@ Virtualization: Hyper-V, VirtualBox
 
 Environments: Docker, Kubernetes
 
-web servers: Apache, IIS, Nginx, Flask
+Web servers: Apache, IIS, Nginx, Flask
 
 DB management: MySQL, PostgreSQL
 
 
-## Повышение квалификации
+## Courses and conferences
 
 - [CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science) / Harvard University (EdX) / 2024
 - [TechWtiter Days](https://techwriterdays.ru/en/index) / [it-conf.ru](https://www.it-conf.ru/) / 2025
@@ -56,7 +56,7 @@ DB management: MySQL, PostgreSQL
 ### Kept (prev. KPMG) - Technical Writer
 *Moscow, Russia, 08/2024 - present*
 
-- Composition of documents for the information systems deployed in the corporate infrastructure
+- Composition of documents for the information systems deployed in the corporate infrastructure:
     - technical:
         - technical architecture
         - solution support model
@@ -77,7 +77,7 @@ DB management: MySQL, PostgreSQL
         - VM deployment
         - network organization
         - deployment of information system components
-    - maintainance of the project task backlog and works schedule, organization of meetings
+    - mainteinance of the project task backlog and works schedule, organization of meetings
     - planning of UI elements and logic for information systems
 
 - DocOps:
@@ -88,7 +88,7 @@ DB management: MySQL, PostgreSQL
 ### Megaputer Intelligence - Linguist / Analyst
 *Moscow, Russia, 05/2023 - 07/2023*
 
-- Composition of documents for the Megaputer PolyAnalyst analytics platform
+- Composition of documents for the Megaputer PolyAnalyst analytics platform:
     - user guides
     - technical guides
 - Analytics:
