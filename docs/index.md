@@ -1,4 +1,4 @@
-# Andrew Orlov<br><br>Technical Writer / DocOps Engineer
+# Andrew Orlov<br><br>Technical Writer / Business Analyst / DocOps Engineer
 
 ![Profile](images/cv/profile.jpg){:.img-mn}
 
