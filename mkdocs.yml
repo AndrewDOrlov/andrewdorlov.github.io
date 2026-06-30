@@ -1,13 +1,10 @@
-site_name: Andrew D. Orlov
+site_name: Sample Documentation Display
 nav:
-  - Curriculum Vitae:
-    - EN: index.md
-    - RU: CVRU.md
-  - Sample Documentation Display:
-    - BookStack:
-      - Technical Architecture: BookStackTA.md
-      - Support Procedures: BookStackSP.md
-      - User Guide: BookStackUG.md
+  - Index: index.md
+  - BookStack System Documents:
+    - Technical Architecture: BookStackTA.md
+    - Support Procedures: BookStackSP.md
+    - User Guide: BookStackUG.md
 theme:
   name: readthedocs
   custom_dir: overrides
