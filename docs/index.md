@@ -13,6 +13,7 @@
 
 Bookstack System Documents:
 
-1. [Technical Architecture](BookStackTA.md)
-2. [Support Procedures](BookStackSP.md)
-3. [User Guide](BookStackUG.md)
+1. [Business Case](BookStackBC.md)
+2. [Technical Architecture](BookStackTA.md)
+3. [Support Procedures](BookStackSP.md)
+4. [User Guide](BookStackUG.md)

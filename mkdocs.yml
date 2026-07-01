@@ -2,6 +2,7 @@ site_name: Andrew Orlov<br>Documentation Display
 nav:
   - Index: index.md
   - BookStack System Documents:
+    - Business Case: BookStackBC.md
     - Technical Architecture: BookStackTA.md
     - Support Procedures: BookStackSP.md
     - User Guide: BookStackUG.md
