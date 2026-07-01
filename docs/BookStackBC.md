@@ -68,7 +68,7 @@ Additional minor customizations in the system interface may be required.
 
 |  | Implementation Time | Y1 | Y2 | Y3 | Total |
 | --- | --- | --- | --- | --- | --- |
-| **Benefits:** | | | | | Increase operational effectiveness when working with documentation. <br>Decrease the risk of outdated information in the documents. <br>Decrease the time required to find the relevant information in the documents. |
+| **Benefits:** | | | | | Increase operational effectiveness when working with documentation.<br> Decrease the risk of outdated information in the documents.<br> Decrease the time required to find the relevant information in the documents. |
 | Revenue |
 | Cost saving |
 | **Costs:** |  |  |  |  |  |
