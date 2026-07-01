@@ -30,7 +30,7 @@ Marketing Dept.
 
 ### 1.3. Benefits
 
-The currently used document storage based on windows shared folders does not fulfill the business needs. The BookStack system features would allow to:
+The currently used document storage based on Windows shared folders does not fulfill the business needs. The BookStack system features would allow to:
 
 * Increase operational effectiveness when working with documentation.
 * Decrease the risk of outdated information in the documents.
