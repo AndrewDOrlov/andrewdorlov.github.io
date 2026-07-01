@@ -77,7 +77,7 @@ Additional minor customizations in the system interface may be required.
 | Support |  | $1k | $1k | $1k | $3k |
 | Costs (IT Dept.) | $5k |  |  |  | $5k |
 | Costs (Marketing Dept.) | $1k |  |  |  | $1k |
-| **Total** | **$9k** | **$1k** | **$1k** | **$1k** | **$12k** |
+| **Total:** | **$9k** | **$1k** | **$1k** | **$1k** | **$12k** |
 
 ## 4. Appendix
 
