@@ -72,12 +72,12 @@ Additional minor customizations in the system interface may be required.
 | Revenue |
 | Cost saving |
 | **Costs:** |  |  |  |  |  |
-| Hardware | $3k |  |  |  | $3k |
+| Hardware | $3.2k |  |  |  | $3.2k |
 | Software |  |  |  |  |  |
 | Support |  | $1k | $1k | $1k | $3k |
 | Costs (IT Dept.) | $5k |  |  |  | $5k |
-| Costs (Marketing Dept.) | $1k |  |  |  | $1k |
-| **Total:** | **$9k** | **$1k** | **$1k** | **$1k** | **$12k** |
+| Costs (Marketing Dept.) | $1.2k |  |  |  | $1.2k |
+| **Total:** | **$9.4k** | **$1k** | **$1k** | **$1k** | **$12.4k** |
 
 ## 4. Appendix
 
