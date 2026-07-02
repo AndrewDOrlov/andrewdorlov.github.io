@@ -30,7 +30,7 @@ The currently used document storage based on Windows shared folders does not ful
 
 Deployment of the BookStack system in the corporate infrastructure.
 
-BookStack is an open-source document management platform suitable for marketing documentation (lists of contractors and clients, style and brand guides, templates etc.)
+BookStack is an open-source document management platform suitable for marketing documentation (lists of contractors and clients, style and brand guides, templates etc.).
 
 Required and supported features:
 
