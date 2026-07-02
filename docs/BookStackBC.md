@@ -22,7 +22,7 @@ Requested and supported features:
 * Thread commenting system for review and correction of the documents.
 * Complex search engine with tags.
 * Possibility to export and import documents.
-* API for automatization of routine tasks.
+* API for automation of routine tasks.
 
 ### 1.2. Beneficiaries
 
