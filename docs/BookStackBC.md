@@ -1,38 +1,38 @@
 # BookStack <br> Business Case
 
-September 2024
+September 2024<br>
+Sample Co<br>
+For demonstration purpose only
 
 ## 1. Summary
 
-Name: BookStack
-
-Requestor: Sergey Sergeev, Marketing Dept.
-
-Approver: Boris Borisov, Head of Marketing Dept.
+Project Name: BookStack<br> 
+Project Requestor: Ruslana Ruslanova, Marketing Dept.<br>
+Project Approver: Boris Borisov, Head of Marketing Dept.
 
 ### 1.1. Business Scope
 
 Deployment of the BookStack system in the corporate infrastructure.
 
-BookStack is an open-source document management platform suitable for marketing documentation (lists of contractors and clients, style guides and templates etc.)
+BookStack is an open-source document management platform suitable for marketing documentation (lists of contractors and clients, style and brand guides, templates etc.)
 
-Requested and supported features:
+Required and supported features:
 
 * Hierarchical content storage allowing for clear development and update of documents.
-* Thread commenting system for review and correction of the documents.
-* Complex search engine with tags.
+* Thread commenting system for review and correction of documents.
+* Advanced search engine with tags.
 * Possibility to export and import documents.
 * API for automation of routine tasks.
 
 ### 1.2. Beneficiaries
 
-Marketing Dept.
+Sample Co. Marketing Dept.
 
 ### 1.3. Benefits
 
-The currently used document storage based on Windows shared folders does not fulfill the business needs. The BookStack system features would allow to:
+The currently used document storage based on Windows shared folders does not fulfill the business needs of the Marketing Dept. The BookStack system features would allow to:
 
-* Increase operational effectiveness when working with documentation.
+* Increase operational effectiveness when working with the documentation.
 * Decrease the risk of outdated information in the documents.
 * Decrease the time required to find the relevant information in the documents.
 
@@ -83,4 +83,4 @@ Additional minor customizations in the system interface may be required.
 
 ### 4.1. BookStack Documentation Workflow Scheme
 
-![BookStackDocumentationWorkflow](images/bookstack/BC/BookStackDocumentationWorkflow.png)
+![BookStackDocumentationWorkflow](images/bookstack/BC/BookStackDocumentationWorkflow.png)<br>*BookStack documentation workflow*

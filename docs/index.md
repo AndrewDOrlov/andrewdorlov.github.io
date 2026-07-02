@@ -1,6 +1,6 @@
-# Sample Documentation Display
+# Sample Project Display
 
-**by Andrew D Orlov**
+**by Andrey Orlov**
 
 ## Contacts
 
@@ -11,9 +11,11 @@
 
 ## Contents
 
-Bookstack System Documents:
+Bookstack Project Documents:
 
 1. [Business Case](BookStackBC.md)
-2. [Technical Architecture](BookStackTA.md)
-3. [Support Procedures](BookStackSP.md)
-4. [User Guide](BookStackUG.md)
+2. [Project Description](BookStackPD.md)
+3. [Project Results Form](BookStackPRF.md)
+4. [Technical Architecture](BookStackTA.md)
+5. [Support Procedures](BookStackSP.md)
+6. [User Guide](BookStackUG.md)

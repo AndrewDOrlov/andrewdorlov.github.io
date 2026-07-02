@@ -1,8 +1,10 @@
-site_name: Andrew Orlov Documentation Display
+site_name: Andrey Orlov Project Display
 nav:
   - Index: index.md
-  - BookStack System Documents:
+  - BookStack Project Documents:
     - Business Case: BookStackBC.md
+    - Project Description: BookStackPD.md
+    - Project Results Form: BookStackPRF.md
     - Technical Architecture: BookStackTA.md
     - Support Procedures: BookStackSP.md
     - User Guide: BookStackUG.md

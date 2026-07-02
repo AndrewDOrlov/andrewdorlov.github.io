@@ -1,6 +1,8 @@
 # BookStack <br> Support Procedures
 
-November 2024
+November 2024<br>
+Sample Co<br>
+For demonstration purpose only
 
 ## 1. Document Info
 
@@ -10,8 +12,8 @@ The section traces the current document history from its initial composition to 
 
 | Version | Author | Date (mm/dd/yyyy) | Description of Change |
 | --- | --- | --- | --- |
-| 1.0 | Andrey Orlov | 11.26.2024 | Initial version |
-| 1.1 | Andrey Orlov | 12.27.2024 | Considerations for User Support Overview added. See [3.3. Considerations](#33-considerations) |
+| 1.0 | Andrey Orlov, IT Dept. | 11.26.2024 | Initial version |
+| 1.1 | Andrey Orlov, IT Dept. | 12.27.2024 | Considerations for User Support Overview added. See [3.3. Considerations](#33-considerations) |
 
 ### 1.2. Approval
 
@@ -69,10 +71,10 @@ Public users are allowed limited access to the system at any time and do not fol
 
 | Party | Definition | Contact | Coverage |
 | --- | --- | --- | --- |
-| Access Approver | Boris Borisov, Management Department | BBorisov@sample.com | Working hours |
+| Access Approver | Boris Borisov, Marketing Dept. | BBorisov@sample.com | Working hours |
 | Service Desk | Service Desk | Service@sample.com | Working hours and 9.AM-14.PM on weekend |
 | System Administrator | Ivan Ivanov, Support Team | IIvanov@sample.com | Working hours |
 
 #### End of Demonstration Fragment
 
-To view the full document, please contact Andrew D Orlov. See [Contacts](index.md#contacts)
+To view the full document, please contact Andrey Orlov. See [Contacts](index.md#contacts)

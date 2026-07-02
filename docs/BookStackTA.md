@@ -1,6 +1,8 @@
 # BookStack <br> Technical Architecture
 
-November 2024
+November 2024<br>
+Sample Co<br>
+For demonstration purpose only
 
 ## 1. Document Info
 The section traces the current document history from its initial composition to the latest version with indication of approval from the responsible parties. Included are the definitions of specific terms and references.
@@ -9,8 +11,8 @@ The section traces the current document history from its initial composition to 
 
 | Version | Author | Date (mm/dd/yyyy) | Description of Change |
 | --- | --- | --- | --- |
-| 1.0 | Andrey Orlov | 11.25.2024 | Initial version |
-| 1.1 | Andrey Orlov | 12.27.2024 | Reverse proxy (Traefik) added. Updated: [2.2. System Description](#22-system-description), [3. System Layout](#3-system-layout), [4. Logical Layout](#4-logical-layout) |
+| 1.0 | Andrey Orlov, IT Dept. | 11.25.2024 | Initial version |
+| 1.1 | Andrey Orlov, IT Dept. | 12.27.2024 | Reverse proxy (Traefik) added. Updated: [2.2. System Description](#22-system-description), [3. System Layout](#3-system-layout), [4. Logical Layout](#4-logical-layout) |
 
 ### 1.2. Approval
 
@@ -110,4 +112,4 @@ The section describes the logical components of the system and indicates their f
 
 #### End of Demonstration Fragment
 
-To view the full document, please contact Andrew D Orlov. See [Contacts](index.md#contacts)
+To view the full document, please contact Andrey Orlov. See [Contacts](index.md#contacts)

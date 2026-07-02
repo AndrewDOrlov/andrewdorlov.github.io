@@ -1,6 +1,8 @@
 # BookStack <br> User Guide
 
-November 2024
+November 2024<br>
+Sample Co<br>
+For demonstration purpose only
 
 ## 1. Document Info
 
@@ -10,7 +12,7 @@ The section traces the current document history from its initial composition to 
 
 | Version | Author | Date (mm/dd/yyyy) | Description of Change |
 | --- | --- | --- | --- |
-| 1.0 | Andrey Orlov | 11.26.2024 | Initial version |
+| 1.0 | Andrey Orlov, IT Dept. | 11.26.2024 | Initial version |
 
 ### 1.2. Approval
 
@@ -166,4 +168,4 @@ On the Home screen, click **Settings**. The Settings screen will open.
 
 #### End of Demonstration Fragment
 
-To view the full document, please contact Andrew D Orlov. See [Contacts](index.md#contacts)
+To view the full document, please contact Andrey Orlov. See [Contacts](index.md#contacts)
