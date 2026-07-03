@@ -63,6 +63,51 @@
     background-color: #227474;
 }
 
+/* Style notes */
+.note summary{
+    background-color: #dff4f4 !important;
+    padding: 5px !important;
+}
+
+.note {
+    /* background: #fcfcfc !important; */
+    background: #dff4f4 !important;
+}
+
+.note summary{
+    background-color: #dff4f4 !important;
+}
+
+
+.note pre code{
+    margin: 10px !important;
+}
+
+.note pre {
+    padding-bottom: 5px !important;
+}
+
+/* .note code {
+    background-color: #dff4f4 !important;
+} */
+
+/* Style admonitions */
+.admonition-title {
+    background-color: #227474 !important;
+}
+
+.admonition.note {
+    background-color: #227474 !important;
+    color: white !important;
+}
+
+.admonition.note a {
+        color: #23e4e4 !important;
+    }
+.admonition.note a:hover {
+        color: #09f8f8 !important;
+    }
+
 /* Font Color*/
 
 /* Caption */
@@ -90,7 +135,7 @@
     }
 }
 
-/* Breadcrumbs */
+/* Breadcrumbs and general links*/
 
 .wy-breadcrumbs, .document {
     a {

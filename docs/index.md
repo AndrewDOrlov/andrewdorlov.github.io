@@ -19,3 +19,4 @@ Bookstack Project Documents:
 4. [Technical Architecture](BookStackTA.md)
 5. [Support Procedures](BookStackSP.md)
 6. [User Guide](BookStackUG.md)
+6. [API Reference](BookStackAPI.md)

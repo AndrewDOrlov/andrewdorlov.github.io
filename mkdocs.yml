@@ -8,6 +8,7 @@ nav:
     - Technical Architecture: BookStackTA.md
     - Support Procedures: BookStackSP.md
     - User Guide: BookStackUG.md
+    - API Reference: BookStackAPI.md
 theme:
   name: readthedocs
   custom_dir: overrides
@@ -20,5 +21,6 @@ extra_javascript:
   - scripts/extra.js
   
 markdown_extensions:
+  - admonition
   - attr_list
   - pymdownx.details
