@@ -24,7 +24,7 @@ jobs:
           python-version: 3.x
 
       - name: Install dependencies
-        run: pip install mkdocs mkdocs-material admonition attr_list pymdownx.details # Install MkDocs and theme (adjust if using requirements.txt)
+        run: pip install mkdocs mkdocs-material mkdocs-github-admonitions-plugin-0.1.1 pymdownx.details # Install MkDocs and theme (adjust if using requirements.txt)
 
       - name: Build site
         run: mkdocs build
