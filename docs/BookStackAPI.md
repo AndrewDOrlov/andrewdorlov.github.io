@@ -39,7 +39,32 @@ Base URLs:
 
 ## getPages
 
-<a id="opIdgetPages"></a>
+`GET /pages`
+
+*List pages*
+
+!!! note ""
+    Example responses
+
+!!! note ""
+    200 Response
+
+```json
+{
+  "data": [
+    {}
+  ],
+  "total": 0,
+  "current_page": 0,
+  "last_page": 0
+}
+```
+
+<h3 id="getpages-responses">Responses</h3>
+
+|Status|Meaning|Description|Schema|
+|---|---|---|---|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|A list of pages|[PaginatedResponse](#schemapaginatedresponse)|
 
 !!! note ""
     Code samples
@@ -176,40 +201,43 @@ Base URLs:
             // ...
         }
 
-`GET /pages`
-
-*List pages*
-
-!!! note ""
-    Example responses
-
-!!! note ""
-    200 Response
-
-```json
-{
-  "data": [
-    {}
-  ],
-  "total": 0,
-  "current_page": 0,
-  "last_page": 0
-}
-```
-
-<h3 id="getpages-responses">Responses</h3>
-
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|A list of pages|[PaginatedResponse](#schemapaginatedresponse)|
-
 <aside class="warning">
 To perform this operation, you must be authenticated by means of BookStackAuth
 </aside>
 
 ## createPage
 
-<a id="opIdcreatePage"></a>
+`POST /pages`
+
+*Create a page*
+
+!!! note ""
+    Body parameter
+
+```json
+{
+  "book_id": 0,
+  "chapter_id": 0,
+  "name": "string",
+  "html": "string"
+}
+```
+
+<h3 id="createpage-parameters">Parameters</h3>
+
+|Name|In|Type|Required|Description|
+|---|---|---|---|---|
+|body|body|object|true|none|
+|» book_id|body|integer|true|none|
+|» chapter_id|body|integer|false|none|
+|» name|body|string|true|none|
+|» html|body|string|true|none|
+
+<h3 id="createpage-responses">Responses</h3>
+
+|Status|Meaning|Description|Schema|
+|---|---|---|---|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Created page|None|
 
 !!! note ""
     Code samples
@@ -352,45 +380,38 @@ To perform this operation, you must be authenticated by means of BookStackAuth
             // ...
         }
 
-`POST /pages`
-
-*Create a page*
-
-!!! note ""
-    Body parameter
-
-```json
-{
-  "book_id": 0,
-  "chapter_id": 0,
-  "name": "string",
-  "html": "string"
-}
-```
-
-<h3 id="createpage-parameters">Parameters</h3>
-
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|body|body|object|true|none|
-|» book_id|body|integer|true|none|
-|» chapter_id|body|integer|false|none|
-|» name|body|string|true|none|
-|» html|body|string|true|none|
-
-<h3 id="createpage-responses">Responses</h3>
-
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Created page|None|
-
 <aside class="warning">
 To perform this operation, you must be authenticated by means of BookStackAuth
 </aside>
 
 ## getBooks
 
-<a id="opIdgetBooks"></a>
+`GET /books`
+
+*List books*
+
+!!! note ""
+    Example responses
+
+!!! note ""
+    200 Response
+
+```json
+{
+  "data": [
+    {}
+  ],
+  "total": 0,
+  "current_page": 0,
+  "last_page": 0
+}
+```
+
+<h3 id="getbooks-responses">Responses</h3>
+
+|Status|Meaning|Description|Schema|
+|---|---|---|---|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|A list of books|[PaginatedResponse](#schemapaginatedresponse)|
 
 !!! note ""
     Code samples
@@ -526,33 +547,6 @@ To perform this operation, you must be authenticated by means of BookStackAuth
             resp, err := client.Do(req)
             // ...
         }
-
-`GET /books`
-
-*List books*
-
-!!! note ""
-    Example responses
-
-!!! note ""
-    200 Response
-
-```json
-{
-  "data": [
-    {}
-  ],
-  "total": 0,
-  "current_page": 0,
-  "last_page": 0
-}
-```
-
-<h3 id="getbooks-responses">Responses</h3>
-
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|A list of books|[PaginatedResponse](#schemapaginatedresponse)|
 
 <aside class="warning">
 To perform this operation, you must be authenticated by means of BookStackAuth
