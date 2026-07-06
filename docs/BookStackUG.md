@@ -77,7 +77,8 @@ As you open BookStack, the login screen appears. To log in:
 
 3. Click **Log In**. The Home screen will open.
 
-*If you are unable to log in or open the login screen, contact the Service Desk at [Service@sample.com](mailto:Service@sample.com)*
+!!! note ""
+    If you are unable to log in or open the login screen, contact the Service Desk at [Service@sample.com](mailto:Service@sample.com)
 
 ### 2.3. Shelves
 
